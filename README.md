@@ -14,7 +14,9 @@ let settings = {
     client_id: 'your_client_id', 
     client_secret: 'your_client_secret', 
     sandbox: default false,
-    bearer: 'your_token'
+    bearer: 'your_token',
+    redirect_uri: 'your_callback_uri',
+    request_scope: 'scope'
 }
 
 let client = new MelhorEnvio(settings);
