@@ -8,7 +8,7 @@ npm install
 ```
 Require Client
 ```
-const MelhorEnvio = require('./lib/melhorenvio')
+const MelhorEnvio = require('melhor-envio')
 
 let settings = { 
     client_id: 'your_client_id', 

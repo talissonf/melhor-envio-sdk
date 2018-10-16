@@ -1,8 +1,8 @@
 {
-  "name": "app-melhor-envio",
+  "name": "melhor-envio",
   "version": "1.0.0",
   "description": "Melhor envio node-sdk",
-  "main": "index.js",
+  "main": "./lib/melhorenvio.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
