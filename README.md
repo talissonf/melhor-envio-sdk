@@ -55,6 +55,18 @@ me.auth.getToken(code)
         console.log(access)
     })
     .catch(e => console.log(e))
+/*
+    Caso a própriedade bearer não seja informada na instancia da classe
+    é possível setá-lo a qualquer momento utilizando o setter me.setToken, ex:
+*/
+
+// com await
+try{
+    let token = await me.auth.getToken(code)
+    me.setToken = token // configura token caso não seja informado na instância da classe.
+} catch(e) {
+    console.log(e)
+}
 
 /** Atualizando */
 let refresh_token = 'XgUYG2UE0AHxkXBboXRXtwph7u2039xIsTgbDWkzIST09H0gvwRFBu3O4rT2I0xdHvw7fF5HWNgTZ14YdqJ6o9vEyFGRBGlVtIWj' 
