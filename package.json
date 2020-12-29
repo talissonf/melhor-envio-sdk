@@ -1,6 +1,6 @@
 {
   "name": "melhor-envio",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Biblioteca não oficial para consumir api do melhor envio",
   "main": "./lib/melhorenvio.js",
   "repository": {
