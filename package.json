@@ -1,11 +1,8 @@
 {
   "name": "melhor-envio",
   "version": "1.6.1",
-  "description": "Melhor envio node-sdk",
+  "description": "Biblioteca não oficial para consumir api do melhor envio",
   "main": "./lib/melhorenvio.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/talissonf/melhor-envio-sdk"
@@ -17,6 +14,11 @@
   },
   "homepage": "https://github.com/talissonf/melhor-envio-sdk#readme",
   "dependencies": {
-    "request": "^2.88.0"
+    "axios": "^0.21.1",
+    "form-data": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "jsdoc": "^3.6.6"
   }
 }
